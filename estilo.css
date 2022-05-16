@@ -4,24 +4,36 @@
     background-color:#010020 ;
 }
 
+header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+
+
+}
+span{
+    color:#00F47F;
+  
+}
+
+
 nav a{
     text-decoration: none;
     color: white;
-  
-}
-
-
-
-.nav span{
-    color:#00F47F;
-  
+    margin-right: 100px;
     
+  
 }
+
+
 
 .logo{
     padding: 50px;
+    margin-left: 80px;
     display: flex;
-    
     
 }
 
