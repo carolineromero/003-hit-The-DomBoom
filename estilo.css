@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#010020 ;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+
+.nav span{
+    color:#00F47F;
+  
+    
+}
+
+.logo{
+    padding: 50px;
+    display: flex;
+    
+    
+}
+
+logo.img{
+    height: 30px;
+}
