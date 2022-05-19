@@ -3,3 +3,4 @@ bombo.src = "bombo.wav";
 function PlaySound(){
     bombo.play();
 }
+
