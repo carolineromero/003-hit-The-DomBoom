@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid 1px red;
+    border:solid 1px #5cb85c;
+  
 }
 
 
@@ -95,14 +96,33 @@ nav a{
  
 }
 
+
+
 .btnredondo{
     
     height: 100px;
     display: flex;
     position: absolute;
     top: 240px;
-    right: 750px;
+    right: 900px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     color: white;
