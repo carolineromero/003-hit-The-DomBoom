@@ -1,147 +1,160 @@
 @import url(./fonts.css);
 @import url(./header.css);
-
+@import url(./precio.css);
+ 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
-
+ 
 body{
-    background-color: #010020;
-    display: flex;
-    justify-content: center;
-    color: white;
-
+   background-color: #010020;
+   display: flex;
+   justify-content: center;
+   color: white;
+ 
 }
-
-.container{
-    width: 100%;
-    max-width: 800px;
+ 
+.contenedor{
+   width: 100%;
+   max-width: 800px;
 }
-
-
-
-.hero{
-    display: flex;
-    align-items: center;
-    padding: 0px 30px;
+ 
+ 
+ 
+.parte_central{
+   display: flex;
+   align-items: center;
+   padding: 0px 30px;
 }
-
-.hero-text{
-    width: 50%;
+ 
+.parte_central-text{
+   width: 50%;
 }
-
+ 
 .boton-hit{
-    background-color: #00F47F;
-    border-radius: 30px;
-    padding: 10px 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    margin: 15px;
+   background-color: #00F47F;
+   border-radius: 30px;
+   padding: 10px 20px;
+   color: white;
+   align-items: center;
+   margin: 15px;
+   border: none;
+   cursor: pointer;
 }
-
-.mainSectionB{
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 1;
+ 
+.zona_bateria{
+   width: 75%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   z-index: 1;
 }
-
+ 
 .fotobateria{
-    z-index: 1;
-
+   z-index: 1;
+ 
 }
-
+ 
 .layersBtns{
-    position:relative;
-    z-index: 2;
+   position:relative;
+   z-index: 2;
 }
-
-.buttn {
-    position: absolute;
-    width: 15%;
-    height: 20%;
-    border-radius: 50%;
-    background: rgba(255, 0, 0, 0.3)
-    z-index: 2;
-
+ 
+.boton-S {
+   position: absolute;
+   width: 15%;
+   height: 20%;
+   border-radius: 100%;
+   background: rgba(255, 255, 255, 0);
+   cursor: pointer;
+   border: 0;
+   z-index: 2;
+ 
 }
-
+ 
 .layerBtn buttn :hover{
-    display: block;
+   display: block;
 }
-
-
-.buttnGran{
-    position: absolute;
-    width: 22%;
-    height: 30%;
-    border-radius: 50%;
-    background: #00F47F;
-    z-index: 2;
+ 
+ 
+.boton-L{
+   position: absolute;
+   width: 22%;
+   height: 30%;
+   border-radius: 100%;
+   background: rgba(255, 255, 255, 0);
+   cursor: pointer;
+   border: 0;
+   z-index: 2;
 }
-
+ 
 #boton01{
-    top:6%;
-    left: 2%;
+   top:6%;
+   left: 2%;
 }
-
+ 
 #boton02{
-    top:29%;
-    left: 9.5%;
+   top:29.5%;
+   left: 9.5%;
 }
-
+ 
 #boton03{
-    top:6%;
-    left: 82%;
+   top:6.5%;
+   left: 82%;
 }
-
+ 
 #boton04{
-    top:29%;
-    left: 74.5%;
+   top:29.5%;
+   left: 74.5%;
 }
-
+ 
 #boton05{
-    top:15.5%;
-    left: 27%;
+   top:15.5%;
+   left: 27%;
 }
 #boton06{
-    top:15.5%;
-    left: 50.5%;
+   top:15.5%;
+   left: 50.5%;
 }
 #boton07{
-    top:53%;
-    left: 15%;
+   top:53%;
+   left: 15%;
 }
 #boton08{
-    top:53%;
-    left: 63%;
+   top:53%;
+   left: 63%;
 }
-
-
-
+ 
+ 
 .fotobateria{
-    filter: drop-shadow( 3em 20px 90px rgba(255, 255, 255, 0.5));
+   filter: drop-shadow( 3em 20px 90px rgba(255, 255, 255, 0.5));
+}
+ 
+ 
+@media (max-width: 500px){
+ 
+   .parte_central{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+ 
+   .parte_central-text{
+       margin-top: 10%;
+       text-align: center;
+   }
+ 
+   .zona_bateria{
+       width: 100%;
+   }
+ 
+  
+      
+ 
 }
 
 
 
 
 
-
-.subscribe{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.pricing{
-    background-color: #00F47F;
-    border-radius: 30px;
-    padding: 10px 20px;
-    margin: 15px;
-}
