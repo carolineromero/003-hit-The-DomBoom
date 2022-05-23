@@ -1,0 +1,30 @@
+.ver_precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  
+ }
+  
+ .pricing{
+    background-color: #00F47F;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+  
+  
+ @media (max-width: 500px){
+    .ver_precio{
+        display: none;
+    }
+  
+    .pricing{
+        display: none;
+    }
+  
+ }
+ 

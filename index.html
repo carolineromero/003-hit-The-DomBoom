@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hit the Domboom</title>
-    <link rel="stylesheet" href="./css/main.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-s cale=1.0">
+   <title>Hit the Domboom</title>
+   <link rel="stylesheet" href="./css/main.css">
+   <script src="./app.js"></script>
+  
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <img src="./img/logo.png" alt="logo de hit the domboom">
-            <nav class="navbar_main">
-                <ul>
-                    <li class="navbar-btn">Premium</li>
-                     <li class="navbar-btn">Help</li>
-                     <li class="navbar-btn">Download</li>
-                     <li class="navbar-btn btn-special">Sign Up</li>
-                     <li class="navbar-btn">Log In</li>
-
-                </ul>
-            </nav>
-        </header>
-        <main class="hero">
-            <div class="hero-text">
-                <h1>Music for everyone.</h1>
-                <p>Millions of songs. No credit card needed</p>
-                <button class="boton-hit">Hit the</button>
-            </div>
-            <div class="mainSectionB">
-                <div class="layerBtns">
-                    <button class="buttn" id="boton01"></button>
-                    <button class="buttn" id="boton02"></button>
-                    <button class="buttn" id="boton03"></button>
-                    <button class="buttn" id="boton04"></button>
-                    <button class="buttnGran" id="boton05" onmousedown="sonido.play()"></button>
-                    <button class="buttnGran" id="boton06"></button>
-                    <button class="buttnGran" id="boton07"></button>
-                    <button class="buttnGran" id="boton08"></button>
-                </div>
-                <img src="./img/drumkit.png" alt="Drummkit here" class="fotobateria">
-            </div>
-
-            
-        </main>
-
-        <section class="subscribe">
-            <h2>Try Premium free for 1 month.</h2>
-            <p>Play millions of songs ad free. On-demand, and offline</p>
-            <button class="pricing">SEE PRINCING</button>
-        </section>
-    </div>
+   <div class="contenedor">
+       <header class="header">
+           <div class="boton-burger">
+               <button>Menu</button>
+           </div>
+           <img src="./img/logo.png" alt="logo de hit the domboom">
+           <nav class="barra_menu">
+               <ul>
+                    <li class="barramenu-btn">Premium</li>
+                    <li class="barramenu-btn">Help</li>
+                    <li class="barramenu-btn">Download</li>
+                    <li class="barramenu-btn btn-special">Sign Up</li>
+                    <li class="barramenu-btn">Log In</li>
+ 
+               </ul>
+              
+           </nav>
+       </header>
+       <main class="parte_central">
+           <div class="parte_central-text">
+               <h1>Music for everyone.</h1>
+               <p>Millions of songs. No credit card needed</p>
+               <button class="boton-hit">Hit the</button>
+           </div>
+           <div class="zona_bateria">
+               <div class="layerBtns">
+                 
+                   <button class="boton-S" id="boton01" onclick="playAudio('./audios/bombo.wav')"></button>
+                   <button class="boton-S" id="boton02" onclick="playAudio('./audios/crash.wav')"></button>
+                   <button class="boton-S" id="boton03" onclick="playAudio('./audios/hit-hat.wav')"></button>
+                   <button class="boton-S" id="boton04" onclick="playAudio('./audios/redoblante.wav')"></button>
+                   <button class="boton-L" id="boton05" onclick="playAudio('./audios/tom1.wav')"></button>
+                   <button class="boton-L" id="boton06" onclick="playAudio('./audios/tom2.wav')"></button>
+                   <button class="boton-L" id="boton07" onclick="playAudio('./audios/tom3.wav')"></button>
+                   <button class="boton-L" id="boton08" onclick="playAudio('./audios/tom4.wav')"></button>
+               </div>
+              
+               <img src="./img/drumkit.png" alt="Drummkit here" class="fotobateria">
+           </div>
+ 
+          
+       </main>
+ 
+       <section class="ver_precio">
+           <h2>Try Premium free for 1 month.</h2>
+           <p>Play millions of songs ad free. On-demand, and offline</p>
+           <button class="pricing">SEE PRINCING</button>
+       </section>
+   </div>
 </body>
 </html>
