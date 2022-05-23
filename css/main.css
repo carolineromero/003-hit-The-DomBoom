@@ -94,8 +94,7 @@ body{
    top:6%;
    left: 2%;
 }
-
-
+ 
 #boton02{
    top:29.5%;
    left: 9.5%;
@@ -133,7 +132,11 @@ body{
    filter: drop-shadow( 3em 20px 90px rgba(255, 255, 255, 0.5));
 }
  
- 
+.layerBtnsmovil{
+    display: none;
+}
+
+
 @media (max-width: 500px){
  
    .parte_central{
@@ -146,16 +149,21 @@ body{
        text-align: center;
    }
  
+
    .zona_bateria{
        width: 100%;
    }
  
-  
+   .layerBtns{
+       display: none;
+   }
+        
+   .layerBtnsmovil{
+       display: flex;
+   }
+
+ 
+  }
       
  
-}
-
-
-
-
 
