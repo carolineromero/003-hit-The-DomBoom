@@ -1,5 +1,5 @@
-var bombo = new Audio();
-bombo.src = "bombo.wav";
+var sonido = new audio();
+sonido.src =
 function PlaySound(){
     bombo.play();
 }
