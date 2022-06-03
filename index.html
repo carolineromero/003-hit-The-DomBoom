@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-s cale=1.0">
   <title>Hit the Domboom</title>
   <link rel="stylesheet" href="./css/main.css">
-  <script src="./js/app.js"></script>
+  
  </head>
 <body>
   <div class="contenedor">
@@ -14,6 +14,7 @@
           <div class="boton-burger">
               <button>Menu</button>
           </div>
+          
           <img src="./img/logo.png" alt="logo de hit the domboom">
           <nav class="barra_menu">
               <ul>
@@ -33,7 +34,7 @@
               <button class="boton-hit">Hit the</button>
           </div>
           <div class="zona_bateria">
-              <div class="layerBtns">
+             <!--  <div class="layerBtns">
                
                   <button class="boton-S" id="boton01" onclick="playAudio('./audios/bombo.wav')"></button>
                   <button class="boton-S" id="boton02" onclick="playAudio('./audios/crash.wav')"></button>
@@ -43,8 +44,21 @@
                   <button class="boton-L" id="boton06" onclick="playAudio('./audios/tom2.wav')"></button>
                   <button class="boton-L" id="boton07" onclick="playAudio('./audios/tom3.wav')"></button>
                   <button class="boton-L" id="boton08" onclick="playAudio('./audios/tom4.wav')"></button>
-              </div>
+             </div>-->
             
+            <div class="layerBtns">
+                <button onclick="bombo.play()" class="boton-S" id="boton01"></button>
+                <button onclick="crash.play()" class="boton-S" id="boton02"></button>
+                <button onclick="hithat.play()" class="boton-S" id="boton03"></button>
+                <button onclick="redoblante.play()" class="boton-S" id="boton04"></button>
+                <button onclick="tom1.play()" class="boton-L" id="boton05"></button>
+                <button onclick="tom2.play()" class="boton-L" id="boton06"></button>
+                <button onclick="tom3.play()" class="boton-L" id="boton07"></button>
+                <button onclick="tom4.play()" class="boton-L" id="boton08"></button>
+
+            </div>
+
+
               <div class="layerBtnsmovil">
                
                <a  href="./paginamvl.html"><button class="boton-S" id="boton01" onclick="playAudio('./audios/bombo.wav')"></button></a>
@@ -70,6 +84,7 @@
           <button class="pricing">SEE PRINCING</button>
       </section>
   </div>
+  <script src="./js/app.js"></script>
 </body>
 </html>
  

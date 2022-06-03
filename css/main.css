@@ -27,6 +27,7 @@ body{
    display: flex;
    align-items: center;
    padding: 0px 30px;
+   font-family: 'Asap', sans-serif;
 }
  
 .parte_central-text{
@@ -129,7 +130,7 @@ body{
  
  
 .fotobateria{
-   filter: drop-shadow( 3em 20px 90px rgba(255, 255, 255, 0.5));
+   filter: drop-shadow(0 0 9rem  rgba(255, 255, 255, 0.5));
 }
  
 .layerBtnsmovil{
